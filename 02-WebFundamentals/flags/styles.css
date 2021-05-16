@@ -55,3 +55,31 @@
   left: 150px;
   top: 0px;
 }
+
+/* Hungarian Flag */
+
+#german-flag:hover .top {
+  background-color: red;
+}
+
+#german-flag:hover .middle {
+  background-color: white;
+}
+
+#german-flag:hover .bottom {
+  background-color: green;
+}
+
+/* Irish Flag */
+
+#french-flag:hover .left {
+  background-color: green;
+}
+
+#french-flag:hover .center {
+  background-color: white;
+}
+
+#french-flag:hover .right {
+  background-color: orange;
+}
