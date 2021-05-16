@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.flag {
+  width: 225px;
+  height: 150px;
+}
+
+/* german flag */
+
+.horizontal {
+  width: 225px;
+  height: 50px;
+}
+
+.top {
+  background-color: black;
+}
+
+.middle {
+  background-color: red;
+}
+
+.bottom {
+  background-color: yellow;
+}
+
+/* french flag */
+
+#french-flag {
+  position: relative;
+}
+
+.vertical {
+  width: 75px;
+  height: 150px;
+}
+
+.left {
+  background-color: blue;
+}
+
+.center {
+  background-color: white;
+  position: absolute;
+  left: 75px;
+  top: 0px;
+}
+
+.right {
+  background-color: red;
+  position: absolute;
+  left: 150px;
+  top: 0px;
+}
