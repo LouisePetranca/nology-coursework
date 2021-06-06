@@ -49,3 +49,46 @@ header {
   padding: 10px;
   margin: 10px;
 }
+
+/* style black boxes */
+.box {
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  color: white;
+}
+
+/* move boxes to be in a row */
+.lhs-panel {
+  display: flex;
+}
+
+/* space boxes in top panel */
+.top {
+  justify-content: space-around;
+}
+
+/* space boxes in middle panel */
+.middle {
+  justify-content: flex-end;
+}
+
+/* space boxes in bottom panel */
+.bottom {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+/* style the RHS panel  */
+#rhs-panel {
+  border: 2px solid black;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+}
