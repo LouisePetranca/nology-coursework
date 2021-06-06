@@ -34,3 +34,18 @@ header {
 #nav-links li {
   padding: 10px 100px;
 }
+
+/* make LHS panels a column */
+#lhs-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* style the panels on the LHS */
+.lhs-panel {
+  border: 2px solid black;
+  height: auto;
+  width: 1000px;
+  padding: 10px;
+  margin: 10px;
+}
